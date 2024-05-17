@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#select {
+    width: 30%;
+}
+
+#dashboard {
+    width: 50%;
+}

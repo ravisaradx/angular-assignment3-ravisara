@@ -1,0 +1,39 @@
+#select {
+    background-color: #663399;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 150px;
+    margin: 10px;
+    min-height: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#block {
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: antiquewhite;
+    color: #663399;
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=text] {
+    width: 50%;
+    margin-left: 15%;
+}
+
+

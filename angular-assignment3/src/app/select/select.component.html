@@ -1,0 +1,13 @@
+<div id="select">
+   <h2>🏐🏐🏐</h2>
+   <div id="box">
+      <input type="text" [(ngModel)]="word">
+      <button (click)="search()">search</button>
+   </div>
+   <div id="info">
+        <div *ngFor="let d of info;" id="block">
+         <div>name: {{d.name}} </div>
+         <div>age: {{d.age}} </div>
+      </div>
+    </div>
+</div>
